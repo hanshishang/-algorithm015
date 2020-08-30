@@ -1,5 +1,5 @@
 学习笔记
-# 栈和队列<br>
+ # 栈和队列<br>
 ## Statck:先入后出；添加、删除皆为o(1)<br>
 * Queue:先入先出；添加、删除皆为o(1)<br>
   * Queue 继承 Collection其中包含：
