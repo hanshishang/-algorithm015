@@ -1,6 +1,6 @@
 学习笔记
-#栈和队列<br>
-##Statck:先入后出；添加、删除皆为o(1)<br>
+# 栈和队列<br>
+## Statck:先入后出；添加、删除皆为o(1)<br>
 * Queue:先入先出；添加、删除皆为o(1)<br>
   * Queue 继承 Collection其中包含：
     * boolean add:如果可以立即将指定的元素插入此队列，而不会违反容量限制，则true成功后返回 ，IllegalStateException 如果当前没有可用空间，则抛出。<br>
@@ -10,11 +10,11 @@
     * E poll():检索并删除此队列的头，null如果此队列为空，则返回。
     * E peek():检索但不删除此队列的头部，null如果此队列为空，则返回。
 
-##Deque：Statck与Queue结合体<br>
+## Deque：Statck与Queue结合体<br>
   * 简单理解：两端可以进出的Queue Deque-double ended queue<br>
   * 插入和删除都是o(1)操作<br>
   
-##Priority Queue（优先队列）<br>
+## Priority Queue（优先队列）<br>
    * 插入操作：O(1)<br>
    * 取出操作：O(log N) 按照元素的优先级取出<br>
    * 底层具体实现的数据结构较为多样和复杂 ：heap、bst、treap<br>
